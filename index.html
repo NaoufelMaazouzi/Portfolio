@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio Naoufel Maâzouzi</title>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/index-css.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Ubuntu|Raleway|Anton|Francois+One&display=swap"
+    rel="stylesheet">
+  <script src="js/pop-up.js"></script>
+
+</head>
+
+<body>
+  <main id="main">
+    <nav id="navbar">
+      <a href="" class="logo">Naoufel Maâzouzi</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu" id="menu">
+        <li><a href="#section1-presentation" class="case">Qui suis-je</a></li>
+        <li><a href="#section2-etudes" class="case">Parcours</a></li>
+        <li><a href="#section3-competences" class="case">Compétences</a></li>
+        <li><a href="#section4-realisations" class="case">Réalisations</a></li>
+        <li><a href="#section5" class="case">Contact</a></li>
+      </ul>
+    </nav>
+    <!--<div id="img">
+      <img src="img/wb.jpg" alt="fond" class="responsive-img" width="600" height="400" />
+    </div>-->
+    <section class="wrapper">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div id="title">
+        <span id="nom">Naoufel Maâzouzi</span><br>
+        <hr id="hr-accueil">
+        <span id="dev">Développeur web</span>
+      </div>
+    </section>
+
+    <section id="section1-presentation">
+      <div id="div-infos">
+        <h2 class="titres">Qui suis-je ?<i class="fas fa-user-tie fa-1x" style="margin-left: 2%; color: white;"></i>
+        </h2>
+        <p>
+          Salut moi c'est Naoufel, j'ai 19ans et je suis actuellement en 2ème année de DUT Métiers du Multimédia et de
+          l'Internet au sein de l'IUT de Meaux. Je suis passioné par l'informatique et les nouvelles technologies, j'ai
+          donc choisi cette formation avec l'option développement/programmation.<br>
+          Je suis aussi très dynamique : j'aime
+          énormément le sport et plus particulièrement le football. J'ai pratiqué ce sport pendant 13ans.<br>
+          Lors de mon temps libre, j'aime beaucoup apprendre de nouveaux langages de programmation et me fixer des
+          objectifs à réaliser.
+        </p>
+      </div>
+      <div id="div-avatar">
+        <img src="img/avatar.png" alt="Avatar" style="width:200px" id="avatar" />
+      </div>
+      <div id="div-bouton-CV">
+        <a href="file:///C:/Users/naouf/Desktop/Stage%20et%20CV/CV%20Naoufel.pdf" target="about_blank"
+          id="bouton-CV">Mon CV</a>
+      </div>
+    </section>
+    <section id="section2-etudes">
+      <h2 class="titres-noirs">Parcours et expériences<i class="fas fa-graduation-cap fa-1x"
+          style="margin-left: 2%; color: #4E4E4D;"></i>
+      </h2>
+      <div class="etude2">
+        <div class="div-annee">
+          <p class="annee">2019</p>
+        </div>
+        <div class="exp">
+          <p class="texte-exp">
+            <strong style="font-size: 1.3rem; color: #2E2E2E;">Développeur web stagiaire </strong><br>
+            Crédit Agricole Corporate & Invesstment Bank<br>
+            Refonte du site interne des développeurs de l'entreprise en React.Js
+            Collaboration au sein d'une équipe à l'aide des logiciels SourceTree et
+            TeamFondationServer
+            Apprentissage Javascript, React.Js et C#
+            Gestion de version du code
+            Implémentation d'API(s)
+
+          </p>
+        </div>
+        <div class="div-annee2">
+          <p class="annee">Depuis 2018</p>
+        </div>
+        <div class="exp2">
+          <p class="texte-exp">
+            <strong style="font-size: 1.3rem; color: #2E2E2E;"> DUT Métiers du Multimedia et de l'Internet</strong><br>
+            IUT Marne-La-Vallée Meaux<br>
+            - Spécialité développement
+          </p>
+        </div>
+        <div class="div-annee3">
+          <p class="annee">2018</p>
+        </div>
+        <div class="exp2">
+          <p class="texte-exp">
+            <strong style="font-size: 1.3rem; color: #2E2E2E;">Bac Scientifique</strong><br>
+            Lycée Rotrou<br>
+            - Mention assez-bien<br>
+            - Spécialité Mathématiques
+          </p>
+        </div>
+
+      </div>
+      <!--<div class="etude">
+        <div class="div-rond">
+          <div class="rond">
+            2019
+          </div>
+        </div>
+        <hr class="hr" />
+        <div class="talkbubble">
+          <div class="triangle"></div>
+          <p>
+            <strong>Développeur web stagiaire </strong><br>
+            Crédit Agricole Corporate & Invesstment Bank
+            <ul id="liste-experiences">
+              <li>Refonte du site interne des développeurs de l'entreprise en React.Js</li>
+              <li>Collaboration au sein d'une équipe à l'aide des logiciels SourceTree et
+                TeamFondationServer
+              </li>
+              <li>Apprentissage Javascript, React.Js et C#</li>
+              <li>Gestion de version du code</li>
+              <li>Implémentation d'API(s)</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div class="etude">
+        <div class="div-rond">
+          <div class="rond">
+            Depuis 2018
+          </div>
+        </div>
+        <hr class="hr" />
+        <div class="talkbubble">
+          <div class="triangle"></div>
+          <p id="texte-bulle2">
+            <strong> DUT Métiers du Multimedia et de l'Internet</strong><br>
+            IUT Marne-La-Vallée Meaux<br>
+            - Spécialité développement
+          </p>
+        </div>
+      </div>
+      <div class="etude">
+        <div class="div-rond">
+          <div class="rond">
+            De 2017 à 2018
+          </div>
+        </div>
+        <hr class="hr" />
+        <div class="talkbubble">
+          <div class="triangle"></div>
+          <p>
+            <strong>Bac Scientifique</strong><br>
+            Lycée Rotrou<br>
+            - Mention assez-bien<br>
+            - Spécialité Mathématiques
+          </p>
+        </div>
+      </div>-->
+    </section>
+    <section id="section3-competences">
+      <h2 class="titres">Mes compétences<i class="fas fa-code fa-1x" style="margin-left: 2%;color: white;"></i>
+      </h2>
+      <div id="div-ruche">
+        <div id="ruche-center">
+          <div class="hex">
+            <div class="left"></div>
+            <div class="middle"><i class="fab fa-html5 fa-5x" style="margin-top: 53%;"></i></div>
+            <div class="right"></div>
+          </div>
+          <div class="hex even">
+            <div class="left"></div>
+            <div class="middle"><i class="fab fa-css3-alt fa-5x" id="id1" style="margin-top: 53%;"></i></div>
+            <div class="right"></div>
+          </div>
+          <div class="hex" id="js">
+            <div class="left"></div>
+            <div class="middle"><i class="fab fa-node-js fa-5x" style="margin-top: 53%;"></i></div>
+            <div class="right"></div>
+          </div>
+          <div class="hex even2" id="react">
+            <div class="left"></div>
+            <div class="middle"><i class="fab fa-react fa-5x" style="margin-top: 53%;"></i></div>
+            <div class="right"></div>
+          </div>
+          <div class="hex even" id="saas">
+            <div class="left"></div>
+            <div class="middle"><i class="fab fa-sass fa-5x" style="margin-top: 53%;"></i></div>
+            <div class="right"></div>
+          </div>
+          <div class="hex" id="csharp">
+            <div class="left"></div>
+            <div class="middle"><i class="fab devicon-csharp-plain fa-5x"
+                style="margin-top: 53%; display: inline-block;"></i>
+            </div>
+            <div class=" right"></div>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="competences">
+        <div class="div-rond-competences">
+          <div class="rond">
+            <i class="fab fa-html5 fa-5x"></i>
+          </div>
+        </div>
+        <div class="div-rond-competences">
+          <div class="rond">
+            <i class="fab fa-css3-alt fa-5x"></i>
+          </div>
+        </div>
+        <div class="div-rond-competences">
+          <div class="rond">
+            <i class="fab fa-node-js fa-5x"></i>
+          </div>
+        </div>
+        <div class="div-rond-competences">
+          <div class="rond">
+            <i class="fab fa-react fa-5x"></i>
+          </div>
+        </div>-->
+    </section>
+    <section id="section4-realisations">
+      <div id="titre-realisations">
+        <h2 class="titres-noirs">Mes réalisations<i class="fas fa-desktop fa-1x"
+            style="margin-left: 2%;color: #4E4E4D;"></i>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/projet1.JPG" style="width: 100%; height: 100%;">
+          </div>
+          <div class="content">
+            <h3>Métiers du web</h3>
+            <p>Voici un projet de cours réalisé en 1ère année de DUT MMI. Ce projet consiste à réaliser un site internet
+              avec comme sujet : les métiers du web.</p>
+            <button type="button" class="bouton-real" onclick="toggleVisibility('Menu1')">Informations</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/projet2bis.JPG" style="width: 100%; height: 100%;">
+          </div>
+          <div class="content">
+            <h3>Notitia</h3>
+            <p>Notitia est le nom de mon projet tutoré réalisé sur les 2ans de mon DUT MMI. Il consiste à faire
+              découvrir les débouchés du DUT MMI ainsi que les métiers du web aux étudiants.</p>
+            <button type="button" class="bouton-real" onclick="toggleVisibility('Menu2')">Informations</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/projet3.JPG" style="width: 100%; height: 100%;">
+          </div>
+          <div class="content">
+            <h3>Site web - Hotel</h3>
+            <p>Ce projet est mon tout premier site internet réalisé en HTML et CSS. Il m'a permis de découvrir les bases
+              sans prendre en compte le responsive design.</p>
+            <button type="button" class="bouton-real" onclick="toggleVisibility('Menu3')">Informations</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/projet4.JPG" style="width: 100%; height: 100%;">
+          </div>
+          <div class="content">
+            <h3>Moteur de recherche Javascript</h3>
+            <p>Ce projet de moteur de recherche est un projet personnel réalisé lors de mon temps libre. Il a pour but
+              de retourner les 10 premiers articles Wikipedia selon la recherche de l'utilisateur.</p>
+            <button type="button" class="bouton-real" onclick="toggleVisibility('Menu4')">Informations</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/projet5.JPG" style="width: 100%; height: 100%;">
+          </div>
+          <div class="content">
+            <h3>Exercice ShoppingList</h3>
+            <p>Ce projet est un exercice effectué en cours pour comprendre les bases et principes du Javascript. Il m'a
+              permis d'aborder de nombreux aspects de ce langage.</p>
+            <button type="button" class="bouton-real" onclick="toggleVisibility('Menu5')">Informations</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="img/projet6.JPG" style="width: 100%; height: 100%;">
+          </div>
+          <div class="content">
+            <h3>Moteur de recherche React</h3>
+            <p>Ce projet de moteur de recherche est un projet personnel réalisé lors de mon temps libre. Il a pour but
+              de retourner les caractéristiques d'un pays recherché.</p>
+            <button type="button" class="bouton-real" onclick="toggleVisibility('Menu6')">Informations</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="customAlert" id="Menu1">
+        <div class="boxAlert">
+          <div class="heading">
+            Site internet - Métiers du web
+          </div>
+          <div class="contenu">
+            <h1>Presentation du projet</h1>
+            <p>Voici un projet de cours réalisé en 1ère année de DUT MMI. Ce projet consiste à réaliser un site internet
+              avec comme sujet : les métiers du web. <br><br>
+              Ce projet est le 2ème site internet que je réalise en HTML et CSS. Il m'a permis de bien maitriser les
+              bases de ces langages. J'ai aussi pu voir pour la première fois le responsive design et ses
+              principes. Lors de ce projet j'ai aussi appris la confection de loader en CSS.
+            </p><br>
+            <a href="#" class="lienSiteProjet"><i class="fas fa-globe"></i>Site
+              internet</a>
+            <h1>technologies utilisées</h1>
+            <ul>
+              <li>HTML, CSS</li>
+            </ul>
+          </div>
+          <div class=" footerAlert">
+            <button type="button" class="confirmbtn" onclick="hidealert('Menu1')">Fermer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="customAlert" id="Menu2">
+        <div class="boxAlert">
+          <div class="heading">
+            Site web - Notitia
+          </div>
+          <div class="contenu">
+            <h1>Presentation du projet</h1>
+            <p>Notitia est le nom de mon projet tutoré réalisé sur les 2ans de mon DUT MMI. Il consiste à faire
+              découvrir les débouchés du DUT MMI ainsi que les métiers du web aux étudiants à l'aide de vidéos en motion
+              design et de fiches métiers.<br><br>
+              Je suis chargé du développement web du
+              projet, j'ai donc réalisé un site internet en HTML, CSS et
+              Javascript qui regroupera toutes nos vidéos en motion design et nos interviews de professionels.<br><br>
+            </p>
+            <a href="#" class="lienSiteProjet"><i class="fas fa-globe"></i>Site
+              internet</a>
+            <h1>technologies utilisées</h1>
+            <ul>
+              <li>HTML, CSS et Javascript</li>
+            </ul>
+          </div>
+          <div class="footerAlert">
+            <button type="button" class="confirmbtn" onclick="hidealert('Menu2')">Fermer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="customAlert" id="Menu3">
+        <div class="boxAlert">
+          <div class="heading">
+            Site web - Hotel
+          </div>
+          <div class="contenu">
+            <h1>Presentation du projet</h1>
+            <p>Ce projet est mon tout premier site internet réalisé en HTML et CSS. Il m'a permis de découvrir les bases
+              sans prendre en compte le responsive design. <br><br>
+              L'objectif de ce projet était de réalisé son premier site internet pour découvrir les bases du
+              développement web en HTML CSS. La compatibilité entre les différents navigateurs ainsi que le responsive
+              design n'ont donc pas été pris en compte pour ce premier projet<br><br>
+            </p>
+            <a href="#" class="lienSiteProjet"><i class="fas fa-globe"></i>Site
+              internet</a>
+            <h1>technologies utilisées</h1>
+            <ul>
+              <li>HTML, CSS</li>
+            </ul>
+          </div>
+          <div class="footerAlert">
+            <button type="button" class="confirmbtn" onclick="hidealert('Menu3')">Fermer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="customAlert" id="Menu4">
+        <div class="boxAlert">
+          <div class="heading">
+            Moteur de recherche Javascript
+          </div>
+          <div class="contenu">
+            <h1>Presentation du projet</h1>
+            <p>Ce projet de moteur de recherche est un projet personnel réalisé lors de mon temps libre. Il a pour but
+              de retourner les 10 premiers articles Wikipedia selon la recherche de l'utilisateur dans la barre de
+              recherche<br><br>
+              J'ai réalisé ce projet pour m'améliorer en Javascript et surtout pour comprendre le concept de
+              programmation Ajax ainsi que l'utilisation d'API. J'ai donc utilisé une API qui renvoie des pages
+              Wikipedia.<br><br>
+            </p>
+            <a href="#" class="lienSiteProjet"><i class="fas fa-globe"></i>Site
+              internet</a>
+            <h1>technologies utilisées</h1>
+            <ul>
+              <li>HTML, CSS, Javascript et Ajax</li>
+            </ul>
+          </div>
+          <div class="footerAlert">
+            <button type="button" class="confirmbtn" onclick="hidealert('Menu4')">Fermer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="customAlert" id="Menu5">
+        <div class="boxAlert">
+          <div class="heading">
+            Exercice ShoppingList
+          </div>
+          <div class="contenu">
+            <h1>Presentation du projet</h1>
+            <p>Ce projet est un exercice effectué en cours pour comprendre les bases et principes du Javascript. Il m'a
+              permis d'aborder de nombreux aspects de ce langage.<br><br>
+              Grâce à cet exercice j'ai pu apprendre à afficher des messages d'erreurs lorsque tous les champs ne sont
+              pas remplis ainsi que l'ajout et la suppression d'éléments dans une liste en Javascript. <br><br>
+            </p>
+            <a href="#" class="lienSiteProjet"><i class="fas fa-globe"></i>Site
+              internet</a>
+            <h1>technologies utilisées</h1>
+            <ul>
+              <li>HTML, CSS, Javascript</li>
+            </ul>
+          </div>
+          <div class="footerAlert">
+            <button type="button" class="confirmbtn" onclick="hidealert('Menu5')">Fermer</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="customAlert" id="Menu6">
+        <div class="boxAlert">
+          <div class="heading">
+            Moteur de recherche React.Js
+          </div>
+          <div class="contenu">
+            <h1>Presentation du projet</h1>
+            <p>Ce projet de moteur de recherche est un projet personnel réalisé lors de mon temps libre. Il a pour but
+              de retourner les caractéristiques d'un pays recherché.<br><br>
+              J'ai réalisé ce projet pour m'améliorer en React et assimiler les "state" et les "props" mais surtout pour
+              comprendre l'utilisation d'API. J'ai donc
+              utilisé une API qui renvoie des données sur chaque pays en format JSON pour les afficher sous forme de
+              liste.<br><br>
+            </p>
+            <a href="#" class="lienSiteProjet"><i class="fas fa-globe"></i>Site
+              internet</a>
+            <h1>technologies utilisées</h1>
+            <ul>
+              <li>React.Js, HTML, CSS</li>
+            </ul>
+          </div>
+          <div class="footerAlert">
+            <button type="button" class="confirmbtn" onclick="hidealert('Menu6')">Fermer</button>
+          </div>
+        </div>
+      </div>
+      <!--<div id="div-titres">
+        <h2 class="titres">Mes réalisations<i class="fas fa-code fa-1x" style="margin-left: 2%;color: white;"></i>
+        </h2>
+      </div>
+      <div class="metiers" data-aos="zoom-out-down">
+        <div class="picture">
+          <a href="article1.html"><img src="img/avatar.png"></a>
+        </div>
+      </div>
+      <div class="metiers" data-aos="zoom-out-down">
+        <div class="picture">
+          <a href="article1.html"><img src="img/avatar.png"></a>
+        </div>
+      </div>
+      <div class="metiers" data-aos="zoom-out-up">
+        <div class="picture">
+          <a href="article1.html"><img src="img/avatar.png"></a>
+        </div>
+      </div>
+      <div class="metiers" data-aos="zoom-out-up">
+        <div class="picture">
+          <a href="article1.html"><img src="img/avatar.png"></a>
+        </div>
+      </div>
+      <div class="metiers" data-aos="zoom-out-up">
+        <div class="picture">
+          <a href="article1.html"><img src="img/avatar.png"></a>
+        </div>
+      </div>
+      <div class="metiers" data-aos="zoom-out-up">
+        <div class="picture">
+          <a href="article1.html"><img src="img/avatar.png"></a>
+        </div>
+      </div>-->
+    </section>
+    <section id="section5">
+      <div class="contact-title">
+        <h1>Envoyez-moi un message !</h1>
+      </div>
+
+      <div class="cotact-form">
+        <form id="contact-form" method="POST" action="contact-forl-handle.php">
+          <input name="name" type="text" class="form-control" placeholder="Votre nom" required><br>
+          <input name="email" type="email" class="form-control" placeholder="Votre email" required><br>
+
+          <textarea name="message" class="form-control" placeholder="Votre message" rows="6" required></textarea><br>
+
+          <input type="submit" class="form-control submit" value="ENVOYER">
+
+        </form>
+      </div>
+      <!--<div id="div-form">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>-->
+    </section>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
