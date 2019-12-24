@@ -1,3 +1,3 @@
-[submodule "index.html"] 
-  path = index.html 
+[submodule "Portfolio"] 
+  path = Portfolio 
   url = https://github.com/NaoufelMaazouzi/Portfolio.git
