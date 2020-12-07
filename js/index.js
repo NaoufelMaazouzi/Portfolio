@@ -1,23 +1,12 @@
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 
 document.addEventListener("scroll", () => {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.padding = "0px 10px";
-    //document.getElementById("navbar").style.opacity = "0";
-    //document.querySelector("#navbar a").style.opacity = "1";
   } else {
     document.getElementById("navbar").style.padding = "30px 10px";
   }
 });
 
-/* document.addEventListener('scroll',() => {
-    var scroll = document.documentElement.scrollTop;
-    console.log(scroll);
-    if (document.body.scrollTop == 0 && document.documentElement.scrollTop == 0) {
-        document.getElementById("navbar").style.opacity = "1";
-        console.log("en haut");
-    }
-}); */
 
 let header = document.querySelector("#navbar");
 let minScrollValue = 15;
@@ -63,15 +52,6 @@ document.addEventListener("scroll", () => {
   minScrollValue2 = scrollValueOfPage2;
 });
 
-
-
-
-
-
-
-
-
-
 let icon = document.getElementsByClassName("fab");
 let csharp = document.getElementsByClassName("devicon-csharp-plain");
 function myFunction(x) {
@@ -94,10 +74,6 @@ myFunction(x) // Call listener function at run time
 x.addListener(myFunction)
 
 
-
-
-
-
 function hidealert(idToHide) {
   var customalert = document.getElementById(idToHide);
   customalert.style.display = 'none';
@@ -105,11 +81,10 @@ function hidealert(idToHide) {
 
 
 
-var divs = ["Menu1", "Menu2", "Menu3", "Menu4", "Menu5", "Menu6"];
+var divs = ["Menu1", "Menu2", "Menu3", "Menu4", "Menu5", "Menu6", "Menu7"];
 var visibleDivId = null;
 function toggleVisibility(divId) {
   if (visibleDivId === divId) {
-    //visibleDivId = null;
   } else {
     visibleDivId = divId;
   }
@@ -126,6 +101,28 @@ function hideNonVisibleDivs() {
     } else {
       div.style.display = "none";
     }
+  }
+}
+
+
+function validation() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  if (name !== "" && /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email) && message !== "") {
+    Swal.fire({
+      icon: 'success',
+      title: 'Merci',
+      text: 'Votre message a été envoyé !',
+      showConfirmButton: false,
+    })
+  } else {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Il faut remplir tous les champs et saisir une adresse email valide !',
+    })
   }
 }
 
